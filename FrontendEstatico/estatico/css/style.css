@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-body{
-    background-color: #3b3b3b;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color:lightblue;
+  }
 #fotoPerfil img{
     border-radius: 50%;
-    max-width: 250px;
+    max-width: 220px;
 }
 #fotoPerfil{
     padding-top: 40px;
@@ -17,5 +18,21 @@ body{
     color: #00e342;
 }
 #descripcion{
-    font-family: 'Verdana', cursive;
+    max-width: 75%;
+}
+#descripcion h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #a4a4a4;
+}
+.titulosSecundarios h3{
+    color: #3b3b3b;
+    font-family: 'Bebas Neue', cursive;
+}
+.progress{
+    height:5px !important;
+    margin-right: 40px !important;
+}
+.progress-bar{
+    background-color: #00e342 !important;
 }
